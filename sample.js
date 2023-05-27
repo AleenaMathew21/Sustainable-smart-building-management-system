@@ -12,7 +12,7 @@ const BME280_OPTION = {
     i2cAddress: BME280.BME280_DEFAULT_I2C_ADDRESS() // defaults to 0x77
 };
 
-const connectionString = '[Your IoT hub device connection string]';
+const connectionString = 'HostName=buildingmanagement.azure-devices.net;DeviceId=iotdevice;SharedAccessKey=p58Hbvpolt3f9my+418zFXMXbjHpFqcu7473hYGanrA=';
 const LEDPin = 4;
 
 var sendingMessage = false;
